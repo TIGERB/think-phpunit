@@ -1,4 +1,6 @@
 <?php
+namespace Test;
+
 // 初始化app
 define('ROOT_PATH', $_SERVER['PWD'] . '/');
 define('APP_PATH', $_SERVER['PWD'] . '/application/');
@@ -12,5 +14,5 @@ Loader::addNamespace('app', __DIR__ . '/../application');
 
 class TestCase extends PHPUnit\Framework\TestCase
 {
-  
+
 }
